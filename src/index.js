@@ -73,13 +73,9 @@ document.getElementsByTagName("a")[6].innerHTML = "Copyright Bir Şirket Sitesi 
 
 document.getElementsByTagName("a")[6].className = "bold"
 
-function cta(h1, button) {
+document.getElementsByTagName("h1")[0].textContent = "Bu DOM Mükemmel";
 
-h1 = document.createElement("h1").innerText = "Bu DOM Mükemmel";
-
-button = document.createElement("button").innerText = "Başlayın";
-
-}
+document.getElementsByTagName("button")[0].textContent = "Başlayın";
 
 document.getElementsByTagName("h4")[0].innerHTML = "Özellikler"
 
@@ -115,6 +111,10 @@ document.getElementById('logo-img').src = "http://localhost:9000/img/logo.png";
 document.getElementById('cta-img').src = "http://localhost:9000/img/cta.png";
 
 document.getElementById('middle-img').src = "http://localhost:9000/img/accent.png";
+
+
+
+
 
 
 
